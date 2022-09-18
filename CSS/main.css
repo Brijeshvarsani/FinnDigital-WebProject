@@ -1,0 +1,341 @@
+body{
+    width: 85%;
+    margin: auto;
+}
+#company-name{
+    color: white;
+    text-decoration: none;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    flex: 2;
+}
+.list a{
+    color: white;
+    text-decoration: none;
+}
+
+#dropdown a{
+    color: black;
+}
+
+#dropdowntwo a{
+    color: black;
+}
+
+#name{
+    font-size: 40px;
+}
+.form{
+    display: flex;
+    justify-content: end;
+}
+button{
+    border-radius: 10px;
+    padding: 4px;
+}
+#nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px; 
+}
+
+.list-items {
+   position: relative;
+}
+
+.list-items ul{
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px 4px 4px 4px;
+    z-index: 100;
+}
+.list-items:hover ul{
+    display: block;
+    position: absolute;
+    left: 0px;
+    border: 1px solid black;
+}
+#dropdown li {
+    width: 250px;
+    padding: 5px;
+    list-style: none;
+}
+#dropdowntwo li {
+    width: 300px;
+    padding: 5px;
+    list-style: none;
+}
+#dropdown li a {
+    padding: 8px 14px;
+    color:  black;
+    width: 100%;
+}
+#dropdowntwo li a {
+    padding: 8px 14px;
+    color:  black;
+    width: 100%;
+}
+#dropdown li a:hover {
+    background-color: darkgray;
+    border-radius: 4px;
+
+}
+#dropdowntwo li a:hover {
+    background-color: darkgray;
+    border-radius: 4px;
+
+}
+#head_one{
+    font-size: 50px;
+    margin: auto;
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Adding CSS for sections */
+.four-phone{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+.four-phone figure{
+    margin-left: 16px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.four-phone figure figcaption {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.four-phone img{  
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+figure a {
+    text-decoration: none;
+}
+
+.four-phone-second{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+}
+.four-phone-second figure{
+    margin-left: 16px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.four-phone-second figure figcaption {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.four-phone-second img{  
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+#head_two{
+    font-size: 50px;
+    margin: auto;
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+}a
+
+/* css to accessories photos*/
+.accessories{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.right a{
+    color: black;
+    text-decoration: none;
+}
+.left a{
+    height: 300px;
+    color: black;
+    text-decoration: none;
+}
+.left a img{
+    flex: 0.6;
+    height: 300px;
+    border-radius: 20px;   
+}
+.left figcaption{
+    flex: 1.4;
+}
+#accessoriesone figcaption{
+    margin-left: 215px;
+}
+#accessoriesthree figcaption{
+    margin-left: 70px;
+}
+
+.right img{
+    flex: 0.6;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.right figcaption{
+    flex: 1.4;
+    text-align: end;
+    margin-right: 70px;
+}
+#accessoriesone{
+    width: auto;
+}
+.footer{
+    display: flex;
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color: white;
+  }
+
+.photos a {
+    color: black;
+    text-decoration: none;
+}
+
+/*applying style to the model pages*/
+
+.main-content{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-content ul{
+    flex: 2;
+    list-style-type: none;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.main-content ul a{
+    color: white;
+    text-decoration: none;
+}
+.main-content ul li{
+    padding: 20px;
+    text-align: center;
+}
+.main-content figure{
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+#mobile-des{
+    flex: 2;
+}
+.model-name{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+th{
+    text-align: center;
+}
+th{
+    border: 5px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 4px;
+}
+#mobnav{
+    display: none;
+}
+video{
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+@media (max-width: 1335px){
+    .form{
+        display: none;
+    }
+
+    #mobnav{
+        display: flex;
+        justify-content: end;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .main-content {flex-direction: column;}
+
+    #navigation{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #mobilephoto{
+        width: 80%;
+    }
+    table{
+        width: 80%;
+    }
+    .main-content figure{
+        width: 70%;
+    }
+    #navigation ul {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+} 
